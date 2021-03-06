@@ -11,6 +11,8 @@
 		B9B589A525F2D89B00196926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B589A425F2D89B00196926 /* ContentView.swift */; };
 		B9B589A725F2D89C00196926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B589A625F2D89C00196926 /* Assets.xcassets */; };
 		B9B589AA25F2D89C00196926 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B589A925F2D89C00196926 /* Preview Assets.xcassets */; };
+		B9B589B325F2DAC100196926 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B589B225F2DAC100196926 /* TodosView.swift */; };
+		B9B589B725F32FC800196926 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B589B625F32FC800196926 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B9B589A625F2D89C00196926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9B589A925F2D89C00196926 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9B589AB25F2D89C00196926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B589B225F2DAC100196926 /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		B9B589B625F32FC800196926 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				B9B589A225F2D89B00196926 /* deepLink_SwiftUI_tutorialApp.swift */,
+				B9B589B625F32FC800196926 /* ProfileView.swift */,
+				B9B589B225F2DAC100196926 /* TodosView.swift */,
 				B9B589A425F2D89B00196926 /* ContentView.swift */,
 				B9B589A625F2D89C00196926 /* Assets.xcassets */,
 				B9B589AB25F2D89C00196926 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B589B725F32FC800196926 /* ProfileView.swift in Sources */,
 				B9B589A525F2D89B00196926 /* ContentView.swift in Sources */,
+				B9B589B325F2DAC100196926 /* TodosView.swift in Sources */,
 				B9B589A325F2D89B00196926 /* deepLink_SwiftUI_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
